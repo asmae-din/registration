@@ -1,0 +1,11 @@
+body{
+   background:#72b6e5;
+   background: linear-gradient(to right ,#72b6e5,#9a59b5 );
+   
+}
+.container{
+    background-color: white;
+    padding:10px 40px 50px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
