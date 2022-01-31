@@ -9,7 +9,7 @@ html, body{
     padding: 0;
 }
 
-body, .btn{
+body, .btn,.header-underline{
    background:#72b6e5;
    background: linear-gradient(to right bottom ,#72b6e5,#9a59b5 );
    
@@ -28,8 +28,17 @@ body, .btn{
 .header{
     margin-left: .9em;
     font-size: 2em;
+    margin-bottom: 0;
 }
+.header-underline{
+    margin-top:none;
+    padding-top: none;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 35px;
+    height: 3px;
 
+}
 .fields-container{
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +85,7 @@ body, .btn{
 .gender-fields{
 
     margin-top: 1em;
-    max-width: 550px auto;
+    width: 100% auto;
 }
 
 .gender-lbl{
@@ -88,5 +97,6 @@ body, .btn{
 .gender-inputs{
     margin-top: 1em;
 }
+
 
 
